@@ -1,0 +1,11 @@
+[INFO ] 2024-07-05 23:27:17.257 [main] FileScanner - Loaded properties file in .//src//test//resources//config.properties
+[INFO ] 2024-07-05 23:27:17.271 [main] FileScanner - Loaded properties file in .//src//test//resources//user.properties
+[INFO ] 2024-07-05 23:27:39.795 [main] Base - Test set up completed
+[INFO ] 2024-07-05 23:27:44.999 [main] LoginPage - Opening the application
+[INFO ] 2024-07-05 23:27:45.999 [main] LoginPage - Login user name entered
+[INFO ] 2024-07-05 23:27:46.120 [main] LoginPage - Login password entered
+[INFO ] 2024-07-05 23:27:47.791 [main] LoginPage - Login button clicked
+[INFO ] 2024-07-05 23:27:47.863 [main] LoginPage - Login page url fetched
+[INFO ] 2024-07-05 23:27:48.357 [main] Base - Browser closed
+[INFO ] 2024-07-05 23:55:17.085 [main] FileScanner - Loaded properties file in .//src//test//resources//config.properties
+[INFO ] 2024-07-05 23:55:17.095 [main] FileScanner - Loaded properties file in .//src//test//resources//user.properties

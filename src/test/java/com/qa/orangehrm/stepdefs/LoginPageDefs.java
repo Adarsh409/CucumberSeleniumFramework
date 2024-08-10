@@ -43,13 +43,14 @@ public class LoginPageDefs {
 
 	}
 
-	@Then("User lands on user homepage page with url {string}")
-	public void user_lands_on_user_homepage_page_with_url(String homePageUrl) {
+	@Then("User should land on user homepage page with url {string}")
+	public void user_should_land_on_user_homepage_page_with_url(String homePageUrl) {
+	
 		Assert.assertEquals(homePageUrl, loginPageObj.getCurrentUrl());
 	}
 
-	@Then("{string} error message is displayed")
-	public void error_message_is_displayed(String errorMsg) {
+	@Then("{string} error message should be displayed")
+	public void error_message_should_be_displayed(String errorMsg) {
 		Assert.assertTrue(loginPageObj.isErrorMsgDisplayed(errorMsg));
 	}
 	

@@ -14,8 +14,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 		glue = {"com.qa.orangehrm.stepdefs"}, //Path of step definition files.
 		dryRun = false, // To check if there is a corresponding method available for each of the step without executing steps.
 		monochrome = true, // To view the console logs in a readable format.
-		plugin = {"pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }// To generate reports
-		//tags="@AddEmployee or @AssignLeave 
+		plugin = {"pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" },// To generate reports
+		tags="@AdminInvalidLogin"
 		)
 public class TestRunner{
 	

@@ -31,7 +31,7 @@ public class Base {
 			log = LogManager.getLogger(Base.class);
 			configProperties = FileScanner.readPropertiesFile(Constants.CONFIG_PROPERTIES_FILE_PATH);
 			userProperties = FileScanner.readPropertiesFile(Constants.USER_PROPERTIES_FILE_PATH);
-			System.out.println("Before:" + js);
+		
 			if (configProperties.getProperty("browser").equalsIgnoreCase("Chrome")) {
 				WebDriverManager.chromedriver().setup();
 				driver = new ChromeDriver();
